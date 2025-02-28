@@ -1,6 +1,8 @@
 .holder {
-    border: 600px solid black;
+    border: 2px solid black;
     display: flex;
+				flex-wrap: wrap;
+				width: 600px;
 }
 
 .item {
@@ -13,6 +15,7 @@
 .item:nth-child(1) {
     order: -2;
     flex-grow: 2;
+				flex-basis: 50%;
 
     background-color: #f95f4e;
 }
@@ -39,6 +42,7 @@
 .item:nth-child(5) {
     order: -2;
     flex-grow: 2;
+				flex-basis: 50%;
 
     background-color: #fba137;
 }
